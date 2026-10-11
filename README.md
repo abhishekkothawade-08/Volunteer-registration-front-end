@@ -1,16 +1,59 @@
-# React + Vite
+# Volunteer Registration System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application for managing volunteer registrations and helping administrators review and manage volunteer applications.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Volunteer registration form
+- User login and registration
+- Volunteer dashboard
+- Admin dashboard
+- Approve or reject volunteer applications
+- Track application status
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- JavaScript
+- CSS
+- Axios (if used for API requests)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+Install Node.js and npm.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/abhishekkothawade-08/Volunteer-registration-front-end.git
+cd Volunteer-registration-front-end
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal, usually `http://localhost:5173`.
+
+## Backend
+
+The frontend may require the Volunteer Registration System backend API to be running for registration, login, and volunteer management features.
+
+Backend repository: [Volunteer-registration-back-end](https://github.com/abhishekkothawade-08/Volunteer-registration-back-end)
+
+## Author
+
+**Abhishek Kothawade**
